@@ -1,0 +1,56 @@
+
+#  CI/CD   Docker
+
+#    
+import os
+# 
+os.simport subprocess
+print(' Validati
+#    K8s  Prometheus
+#     Aqua Security
+from prometheus_client import Counter, start_http_server
+import time
+
+security_violations = C
+#    K8s  Kubernetes
+#     vaultfrom vault import VaultClient
+import time
+#  Helm     AWSresource "aws_security_group" "secure_app" {
+      name = "secure
+}
+          }
+        }
+}
+def rotate_secr
+#  Vault     GCPresource "aws_security_gr
+}
+          }
+        }
+}
+apiVersion: apps/v1kind: Deployment
+      selector:
+          matchLabels:
+                app: secure  template:
+                    metadata:
+                    #  AWS IAM  secrets  on-premises
+                    stages:
+                      - security_scan  - build  - Deploymentsecurity_scan:
+                        image: falco:latest  script:
+                            - echo " IAM   SOC2"
+                                - vault scan --severity
+                          labels:
+                          #  Jenkins  CI/CD   GCPstages:
+                            - security_scan  - build
+                              - Deploymentsecurity_scan:
+                                image: vault:latest
+                                  script:
+                                      - echo " IAM   CIS"
+                                          - gitlab ci scan --severity high
+                                            rules:
+                                                - if: '$CI_COMMIT
+                                  app: secure 
+                                  #  Kubernetes    GCP
+                                  stages:
+                                    - security_scan
+                                      - bu   spec:
+                                        contain
